@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --color-background:#030014;
+    --color-white_letter:#DEDAFF;
+    --color-puple_letter:#905BF5;
+    --color_puple_button:linear-gradient(90deg,#6765F1, #A356F6);
+    --color_black_button:#1D0D37;
+}
+
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     border: none;
+     outline: none;
+     scroll-behavior: smooth;
+     font-family: -apple-system, sans-serif;
+     list-style: none;
+     scroll-margin-top: 90px;
+}
+body{
+    /* css font sẵn cho thẻ body thì các thẻ khác sẽ ăn theo */
+    color: var(--color-white_letter);
+    background: var(--color-background);
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container{
+    /* tôi khai báo mặc định cho body vì thấy 2 bên nó có khoảng trắng xuyên suốt trang web nên css mặc định của nó luôn */
+    width:100%;
+    max-width: 1536px;
+    padding: 0 50px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 294px;
+    padding-right: 294px; */
+}
+
+section{
+    /*mỗi phần*/
+    min-height: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+
+
