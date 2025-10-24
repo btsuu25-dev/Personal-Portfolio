@@ -1,8 +1,60 @@
 /* ==Reponsive== */
 /*PC*/
-@media (min-width:992px){
 
+@media (max-width:1368px){
+  .section_two .Goal .Goal_img{
+    box-shadow:none ;
+  }
+  .section_two .Goal .Goal_img:hover{
+    box-shadow: none;
+  }
+
+  .section_two .Goal .Goal_img img{
+    box-shadow: 0 0 15px var(--color-puple_letter);
+  }
 }
+@media (min-width:992px) and (max-width:1209px){
+  .contact{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+/* @media (min-width:992px) and (max-width:1026px){
+  .contact{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header .inner-wrapper .nav-bar ul{
+    display: none;
+  }
+
+  .header .inner-wrapper .inner-logo{
+    margin-left: 369px;
+  }
+
+  .section_two .Inner_Introduce .inner_image{
+    width: 65%;
+    margin-left: 154px;
+  }
+
+  .section_two .inner_content .list_item{
+    width: 88%;
+  }
+
+.section_two .inner_content .list_item_two{
+  width: 95%;
+}
+
+.swiper{
+  width: 88%;
+}
+
+.section_three .skill_percent{
+  padding-right: 41px;
+}
+} */
 
 /* Tablet & mobile */
 
